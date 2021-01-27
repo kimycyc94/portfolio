@@ -1,0 +1,140 @@
+h1 {  /* SDescendant Selectors */
+  color: #111;    /* Blue */
+  text-align: center;
+  font-size: 3em;
+}
+
+.welcoming {
+  font-style:oblique;
+  font-weight:bolder;
+  font-size: 1.5em;
+  color:rgb(56, 56, 56);
+  line-height: 30px;
+  text-align: center;
+}
+
+.page {
+  text-align: normal;
+  padding-left: 30px;
+}
+
+h2 {
+  background-color:rgb(238, 238, 238);
+  color: #2d5c92;
+  padding-left: 0.5em;
+}
+
+body {
+  background-color: #fdfdfd;
+}
+
+ol {
+  list-style-type: lower-roman;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/*Horizontal menu bar*/
+
+.link-in-box {
+  display: inline;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right: 1px solid #bbb;
+  background-color: rgb(44, 44, 44);
+}
+
+.link-in-box:link {              /*user has never visted*/
+  color: white;
+  text-decoration: none;
+}
+.link-in-box:visited {              /*user visited*/
+  color: whitesmoke;
+}
+.link-in-box:hover {              /*user has never visited, and puts mouse on*/
+  color: wheat;
+  text-decoration: underline;
+}
+.link-in-box:visited:hover {         /*user visited before, and puts mouse on*/
+  color: wheat;
+}
+.link-in-box:active {              /*user has never visited before, and when user clicks*/
+  color: yellow;
+}
+.link-in-box:visited:active {              /*user visited before, and when user clicks*/
+  color: yellow;
+}
+.link-in-box:hover {
+  background-color: rgb(70, 69, 69);
+}
+
+.link:link {              /*user has never visted*/
+  color: blue;
+  text-decoration: none;
+}
+.link:visited {              /*user visited*/
+  color: rgb(247, 77, 131);
+  text-decoration: underline;
+}
+.link:hover {              /*user has never visited, and puts mouse on*/
+  color: rgb(252, 201, 106);
+  text-decoration: underline;
+}
+
+/*Experiences*/
+.period {
+  display: block;
+  text-align: center;
+  width: 450px;
+  text-decoration: none;
+  background-color: seashell;
+}
+
+/*button*/
+#linked-in {
+  text-align: center;
+  font-size: 30px;
+  font-style: Arial;
+}
+#button {
+  color: #5D6063;  /* Dark gray */
+  display: block;             /* Add this */
+  text-decoration: none;      /* Add this */
+  color: #FFF;
+  background-color: #5995DA;    /* Blue */
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;    /* Dark gray */
+  border-radius: 5px;
+  width: 200px;
+  margin: 20px auto;
+}
+
+#button:visited {
+  color: rgb(233, 184, 192);
+}
+
+#button:hover {
+  background-color: #90b4dd;
+  color: #1577e7;
+}
+
+/*contact*/
+.contact{
+  font-size: 1.2em;
+  line-height: 1.4em;
+  padding-left: 1em;
+}

@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset='UTF-8'/>
         <title>Portfolio of Kim</title>
+        <link rel='stylesheet' href='index-style.css'/>
     </head>
     <body>
         <h1>Welcome to Youngchan Kim's Web site!</h1>
-        <p>Hi, all! This is Youngchan Kim. I'm majoring Computer Science
-            at <a href='https://www.byu.edu'target='_blank'>Brigham Young University</a>.<br>
-            I'm from South Korea. I'm looking for a job opportunity in 
-            the Computer Programming field.
-        </p>
 
+        <p class='welcoming'>Hi, all! I'm majoring Computer Science
+            at <a class='link' href='https://www.byu.edu'target='_blank'>Brigham Young University</a>.<br>
+            I'm from South Korea. I'm looking for a job opportunity in 
+            the Computer Programming field.</p>
+        
+        <ul>
+            <li><a class='link-in-box' href="#Home">Home</a></li>
+            <li><a class='link-in-box' href="#Projects">Projects</a></li>
+            <li><a class='link-in-box' href="#Experiences">Experiences</a></li>
+            <li><a class='link-in-box' href="#Contact">Contact</a></li>
+        </ul>
+
+        <div class='page'>
         <h2>Projects</h2>
         <p>Here are the projects that I'm working on:</p>
         <ol>
             <li><strong>Android app:</strong> Building family research app using <em>Java and Android Studio</em></li>
-            <li><strong>Web site:</strong> Building and running web server and web site using tools:<br>
+            <li><strong>Web programming:</strong> Building and running web server and web site using tools:<br>
             <em>Digital Ocean, HTML, CSS, JavaScript, and Git</em></li>
             <li><strong>Translating dramas:</strong> Working at Anthropology Department translating Korean dramas to English<br>
             I love to introduce my country's culture to the world</li>
@@ -23,30 +33,33 @@
 
         <h2>Experiences</h2>
         <ul>
-            <li>August 2020 - present <em>Brigham Young University</em>, Provo, UT<br>
-            -   <strong>Korean Teaching Assistance</strong><br>
+            <li class='period'>August 2020 - present <em>Brigham Young University</em>, Provo, UT</li>
+            <p>-   <strong>Korean Teaching Assistance</strong><br>
             o	Teaching Korean for non-native Korean speakers.<br>		
-            o	Grading exams and writings.</li>
-            <li>August 2020 - present <em>Brigham Young University</em>, Provo, UT<br>
-            -   <strong>Anthropology Department Research Assistance</strong><br>
+            o	Grading exams and writings.</p>
+            <li class='period'>August 2020 - present <em>Brigham Young University</em>, Provo, UT</li>
+            <p>-   <strong>Anthropology Department Research Assistance</strong><br>
             o	Translating documents, papers, and videos from Korean to English.<br>		
-            o	Managing Lab computers.</li>
-            <li>April 2015 - January 2017 <em>Military</em>, Suwon, Korea<br>
-            -   <strong>Military Police</strong><br>
+            o	Managing Lab computers.</p>
+            <li class='period'>April 2015 - January 2017 <em>Military</em>, Suwon, Korea</li>
+            <p>-   <strong>Military Police</strong><br>
             o	Arrested soldiers who break laws and rules.<br>		
-            o	Assisted investigators at investigation service office.</li>
-            <li>April 2013 - April 2015 <em>Missionary</em>, Daejeon, Korea<br>
-            -   <strong>Full time missionary</strong><br> 	
+            o	Assisted investigators at investigation service office.</p>
+            <li class='period'>April 2013 - April 2015 <em>Missionary</em>, Daejeon, Korea</li>
+            <p>-   <strong>Full time missionary</strong><br> 	
             o	Taught about Jesus Christ and restoration gospel.<br>
-            o	Served for the sick and the poor as a social service activity.</li>
+            o	Served for the sick and the poor as a social service activity.</p>
         </ul>
-        <p>Please, visit my linked in profile to learn more about me!<br>
-        <a href='https://www.linkedin.com/in/youngchan-kim-07151014b/'
-        target='_blank'>Linked in profile</a></p>
         
+        
+        <p id = 'linked-in'>Please, visit my linked in profile to learn more about me!<p>
+        <a id = 'button'  href='https://www.linkedin.com/in/youngchan-kim-07151014b/'
+        target='_blank'>Linked Button</a>
+
         <h2>Contact information</h2>
+        </div>
         <hr>
-        <ul>
+        <ul class='contact'>
             <li><strong>Email:</strong> kimycyc94@gmail.com</li>
             <li><strong>Phone:</strong> 3852224565 <em>(Prefer text message)</em></li>
         </ul>
