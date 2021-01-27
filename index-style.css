@@ -110,12 +110,13 @@ li a {
 }
 #button {
   color: #5D6063;  /* Dark gray */
+  font-size: 30px;
   display: block;             /* Add this */
   text-decoration: none;      /* Add this */
   color: #FFF;
   background-color: #5995DA;    /* Blue */
   font-weight: bold;
-  padding: 20px;
+  padding: 15px;
   text-align: center;
   border: 2px solid #5D6063;    /* Dark gray */
   border-radius: 5px;
